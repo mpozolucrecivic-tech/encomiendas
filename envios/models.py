@@ -6,7 +6,6 @@ from rutas.models import Ruta
 from config.choices import EstadoEnvio, EstadoGeneral
 import uuid
 from datetime import timedelta
-from django.utils import timezone
 from decimal import Decimal
 from .querysets import EncomiendaQuerySet
 

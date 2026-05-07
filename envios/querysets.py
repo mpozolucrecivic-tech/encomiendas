@@ -1,9 +1,6 @@
 from django.db import models
 from django.utils import timezone
 
-# =========================
-# ENCOMIENDA
-# =========================
 
 class EncomiendaQuerySet(models.QuerySet):
 
@@ -49,9 +46,7 @@ class EncomiendaQuerySet(models.QuerySet):
         )
 
 
-# =========================
-# CLIENTE
-# =========================
+
 
 class ClienteQuerySet(models.QuerySet):
 
@@ -72,9 +67,7 @@ class ClienteQuerySet(models.QuerySet):
         )
 
 
-# =========================
-# RUTA
-# =========================
+
 
 class RutaQuerySet(models.QuerySet):
 
